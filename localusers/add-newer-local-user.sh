@@ -46,7 +46,7 @@ then
 fi
 
 # force password change on the first login
-passwd -e ${USERNAME} &> /dev/null
+#passwd -e ${USERNAME} &> /dev/null
 
 echo ""
 echo "Username : ${USERNAME}"
